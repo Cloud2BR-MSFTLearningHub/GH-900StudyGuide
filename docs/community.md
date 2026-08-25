@@ -2,12 +2,10 @@
 
 GitHub is a collaboration network as well as a code-hosting platform. The exam's community domain emphasizes responsible participation and discoverability.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/contribute-open-source/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/github/contribute-to-an-open-source-project-on-github.svg" alt="Microsoft Learn achievement badge for contributing to an open-source project on GitHub" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/contribute-open-source/">Contribute to an open-source project on GitHub</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/repository/propose-button-community-profile.png" alt="GitHub community profile screen with a Propose button" /></a>
+    <figcaption>Official GitHub Docs product visual: proposing a community profile improvement for <a href="https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions">healthy contributions</a>.</figcaption>
+</figure>
 
 | Concept | Why it matters |
 | --- | --- |

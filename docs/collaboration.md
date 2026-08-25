@@ -2,12 +2,10 @@
 
 GH-900 expects you to choose the right collaboration surface and explain how work moves between them.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Learn achievement badge for communicating on GitHub using Markdown" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/">Communicate effectively on GitHub using Markdown</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/pull_requests/review-changes-button.png" alt="GitHub pull request Review changes button" /></a>
+    <figcaption>Official GitHub Docs product visual: reviewing a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull request</a>.</figcaption>
+</figure>
 
 | Tool | Best for | Connection to other work |
 | --- | --- | --- |

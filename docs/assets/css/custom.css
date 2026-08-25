@@ -38,30 +38,32 @@
   max-width: 100%;
 }
 
-.learn-visual {
-  align-items: center;
+.product-visual {
   background: #f6f8fa;
-  border-left: 4px solid var(--azure-blue);
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0;
-  padding: 0.75rem 1rem;
+  border: 1px solid #c2d4e5;
+  border-radius: 6px;
+  margin: 1.25rem 0;
+  max-width: 52rem;
+  overflow: hidden;
 }
 
-.learn-visual img {
-  flex: 0 0 auto;
+.product-visual a {
+  display: block;
+}
+
+.product-visual img {
+  border: 0;
+  border-radius: 0;
   margin: 0;
+  max-height: 22rem;
+  object-fit: contain;
+  width: 100%;
 }
 
-.learn-visual p {
-  margin: 0;
-}
-
-@media screen and (max-width: 34em) {
-  .learn-visual {
-    align-items: flex-start;
-    flex-direction: column;
-  }
+.product-visual figcaption {
+  border-top: 1px solid #c2d4e5;
+  font-size: 0.75rem;
+  padding: 0.65rem 0.85rem;
 }
 
 .md-typeset table:not([class]) {

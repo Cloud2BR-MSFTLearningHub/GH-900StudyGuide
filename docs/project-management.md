@@ -2,12 +2,10 @@
 
 GitHub Projects helps teams view and organize work across issues and pull requests. Learn how project configuration supports a team workflow.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/manage-work-github-projects.svg" alt="Microsoft Learn achievement badge for managing work with GitHub Projects" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/manage-work-github-projects/">Manage your work with GitHub Projects</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/projects-v2/example-board.png" alt="GitHub Projects board view with work items arranged in columns" /></a>
+    <figcaption>Official GitHub Docs product visual: a GitHub Projects <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects">board view</a>.</figcaption>
+</figure>
 
 | Capability | What to understand |
 | --- | --- |

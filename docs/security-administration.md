@@ -2,12 +2,10 @@
 
 This domain asks you to apply least privilege and choose controls that fit the repository and organization context.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/github/maintain-secure-repository-github.svg" alt="Microsoft Learn achievement badge for maintaining a secure GitHub repository" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/">Maintain a secure repository by using GitHub best practices</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/2fa/add-security-keys-option.png" alt="GitHub interface for adding a security key as a two-factor authentication method" /></a>
+    <figcaption>Official GitHub Docs product visual: adding a security key for <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github">two-factor authentication</a>.</figcaption>
+</figure>
 
 | Control | What it protects or governs | Study cue |
 | --- | --- | --- |

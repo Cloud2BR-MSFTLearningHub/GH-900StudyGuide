@@ -2,12 +2,10 @@
 
 Repositories organize files, history, settings, and collaboration conventions. Be able to recognize common files and describe why maintainers use them.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/github/manage-changes-pull-requests-github.svg" alt="Microsoft Learn achievement badge for managing repository changes with pull requests" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/manage-changes-pull-requests-github/">Manage repository changes by using pull requests on GitHub</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/repository/repo-create.png" alt="GitHub Create a new repository form" /></a>
+    <figcaption>Official GitHub Docs product visual: the <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories">repository creation</a> experience.</figcaption>
+</figure>
 
 | Repository item | Purpose | Exam-oriented distinction |
 | --- | --- | --- |

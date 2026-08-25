@@ -2,12 +2,10 @@
 
 This is the largest GH-900 domain. Focus on why version control exists, distinguish local Git from the GitHub platform, and understand the collaboration flow.
 
-<div class="learn-visual">
-    <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github/">
-        <img src="https://learn.microsoft.com/en-us/training/achievements/github/introduction-to-github.svg" alt="Microsoft Learn achievement badge for Introduction to GitHub" width="148" />
-    </a>
-    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github/">Introduction to GitHub</a>.</p>
-</div>
+<figure class="product-visual">
+    <a href="https://docs.github.com/en/get-started/using-github/github-flow"><img src="https://raw.githubusercontent.com/github/docs/main/assets/images/help/branches/new-branch-button.png" alt="GitHub repository branch controls showing the New branch button" /></a>
+    <figcaption>Official GitHub Docs product visual: branch creation in the <a href="https://docs.github.com/en/get-started/using-github/github-flow">GitHub Flow</a>.</figcaption>
+</figure>
 
 | Concept | Study it as | Quick check |
 | --- | --- | --- |
