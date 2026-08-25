@@ -1,0 +1,23 @@
+:root {
+  --gh-study-accent: #0969da;
+  --gh-study-ink: #24292f;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  color: var(--gh-study-ink);
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid #d0d7de;
+}
+
+.md-typeset table:not([class]) th {
+  background: #ddf4ff;
+}
+
+.source-note {
+  border-left: 4px solid var(--gh-study-accent);
+  padding: 0.75rem 1rem;
+  background: #f6f8fa;
+}

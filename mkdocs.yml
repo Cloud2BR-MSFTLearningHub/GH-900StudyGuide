@@ -1,0 +1,60 @@
+site_name: GH-900 GitHub Foundations Study Guide
+site_description: An independent study guide aligned to the official Microsoft Learn GH-900 skills measured.
+site_url: https://cloud2br-msftlearninghub.github.io/GH-900StudyGuide/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide
+repo_name: Cloud2BR-MSFTLearningHub/GH-900StudyGuide
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
+
+theme:
+  name: material
+  logo: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg
+  favicon: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    scheme: default
+    primary: blue
+    accent: cyan
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/custom.css
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloud2BR-MSFTLearningHub
+      name: Cloud2BR OSS - Learning Hub
+
+nav:
+  - Home: index.md
+  - Study Domains:
+      - Git and GitHub basics: git-github-basics.md
+      - Repositories: repositories.md
+      - Collaboration: collaboration.md
+      - Modern development: modern-development.md
+      - Project management: project-management.md
+      - Security and administration: security-administration.md
+      - Community: community.md
