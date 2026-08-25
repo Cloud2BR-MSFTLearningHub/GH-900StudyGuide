@@ -2,6 +2,13 @@
 
 GitHub is a collaboration network as well as a code-hosting platform. The exam's community domain emphasizes responsible participation and discoverability.
 
+<div class="learn-visual">
+    <a href="https://learn.microsoft.com/en-us/training/modules/contribute-open-source/">
+        <img src="https://learn.microsoft.com/en-us/training/achievements/github/contribute-to-an-open-source-project-on-github.svg" alt="Microsoft Learn achievement badge for contributing to an open-source project on GitHub" width="148" />
+    </a>
+    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/contribute-open-source/">Contribute to an open-source project on GitHub</a>.</p>
+</div>
+
 | Concept | Why it matters |
 | --- | --- |
 | Open source | Lets people inspect, use, improve, and share work under its license. |

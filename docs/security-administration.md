@@ -2,6 +2,13 @@
 
 This domain asks you to apply least privilege and choose controls that fit the repository and organization context.
 
+<div class="learn-visual">
+    <a href="https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/">
+        <img src="https://learn.microsoft.com/en-us/training/achievements/github/maintain-secure-repository-github.svg" alt="Microsoft Learn achievement badge for maintaining a secure GitHub repository" width="148" />
+    </a>
+    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/">Maintain a secure repository by using GitHub best practices</a>.</p>
+</div>
+
 | Control | What it protects or governs | Study cue |
 | --- | --- | --- |
 | Two-factor authentication and passkeys | Account sign-in | Strengthen identity verification. |

@@ -38,6 +38,32 @@
   max-width: 100%;
 }
 
+.learn-visual {
+  align-items: center;
+  background: #f6f8fa;
+  border-left: 4px solid var(--azure-blue);
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.learn-visual img {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.learn-visual p {
+  margin: 0;
+}
+
+@media screen and (max-width: 34em) {
+  .learn-visual {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 .md-typeset table:not([class]) {
   border: 1px solid #9fb9d2;
   border-collapse: separate;

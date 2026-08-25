@@ -2,6 +2,13 @@
 
 This is the largest GH-900 domain. Focus on why version control exists, distinguish local Git from the GitHub platform, and understand the collaboration flow.
 
+<div class="learn-visual">
+    <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github/">
+        <img src="https://learn.microsoft.com/en-us/training/achievements/github/introduction-to-github.svg" alt="Microsoft Learn achievement badge for Introduction to GitHub" width="148" />
+    </a>
+    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-github/">Introduction to GitHub</a>.</p>
+</div>
+
 | Concept | Study it as | Quick check |
 | --- | --- | --- |
 | Version control | A recorded, recoverable history of changes | Why is a commit more useful than saving `final-v7`? |

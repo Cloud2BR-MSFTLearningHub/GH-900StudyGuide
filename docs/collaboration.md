@@ -2,6 +2,13 @@
 
 GH-900 expects you to choose the right collaboration surface and explain how work moves between them.
 
+<div class="learn-visual">
+    <a href="https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/">
+        <img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Learn achievement badge for communicating on GitHub using Markdown" width="148" />
+    </a>
+    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/communicate-using-markdown/">Communicate effectively on GitHub using Markdown</a>.</p>
+</div>
+
 | Tool | Best for | Connection to other work |
 | --- | --- | --- |
 | Issue | A task, bug, idea, or question | Can be assigned, labeled, tracked in a project, and linked to a pull request |

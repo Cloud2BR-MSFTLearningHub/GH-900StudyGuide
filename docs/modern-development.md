@@ -2,6 +2,13 @@
 
 The exam tests the purpose and boundaries of GitHub's automation, AI, and cloud-development tools, not a specific programming language.
 
+<div class="learn-visual">
+    <a href="https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/">
+        <img src="https://learn.microsoft.com/en-us/training/achievements/generic-badge.svg" alt="Microsoft Learn achievement badge for coding with GitHub Codespaces" width="148" />
+    </a>
+    <p>Official Microsoft Learn visual reference: <a href="https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/">Code with GitHub Codespaces</a>.</p>
+</div>
+
 | Tool | Primary purpose | Key distinction |
 | --- | --- | --- |
 | GitHub Actions | Automate workflows such as build, test, and deployment | Workflow automation triggered by repository events |
