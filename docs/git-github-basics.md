@@ -36,3 +36,79 @@ flowchart LR
 | Account, organization, enterprise | Personal use, team ownership, and centrally administered environments |
 
 Learn the vocabulary in [Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/) and [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/).
+
+## Version control fundamentals
+
+Version control records how a project changes over time. Instead of keeping disconnected copies such as `proposal-final-2`, a team has an inspectable history that identifies what changed, when it changed, and the related commit.
+
+| Term | Meaning | Why it matters in a scenario |
+| --- | --- | --- |
+| Working directory | The files currently being edited on a machine | It can contain changes that have not yet been recorded. |
+| Repository | A project plus its version-control history | A repository can be local, hosted, or both. |
+| Commit | A recorded snapshot with a message and history relationship | It creates a meaningful checkpoint for review, recovery, and collaboration. |
+| Branch | An independent line of development | It isolates a proposed change from the default branch. |
+| Merge | Combining an accepted branch change into another branch | It integrates reviewed work into the shared codebase. |
+| Remote | A hosted repository that a local repository can synchronize with | It supports sharing branches and collaborating through GitHub. |
+
+### Git compared with GitHub
+
+| Question | Git | GitHub |
+| --- | --- | --- |
+| What is it? | A distributed version-control system. | A platform for hosting and collaborating around Git repositories. |
+| Can it work offline? | Yes, local commits and branches can be created offline. | Hosted collaboration features need a connection to GitHub. |
+| What does it manage? | File history, commits, branches, and merges. | Repositories plus pull requests, issues, Actions, Projects, access controls, and community features. |
+| Typical command or action | Create a commit or switch branch locally. | Open a pull request or configure repository settings. |
+
+### Benefits to recognize
+
+| Need | Version-control benefit |
+| --- | --- |
+| Recover from an unwanted change | Compare with or return to a known commit. |
+| Let multiple people work safely | Use branches and merge reviewed changes. |
+| Understand why a change happened | Review commit messages, pull requests, and linked issues. |
+| Test a new idea without destabilizing shared work | Work in a branch before proposing a merge. |
+
+## Accounts, organizations, and enterprise
+
+| Scope | Use it when | Key study point |
+| --- | --- | --- |
+| Personal account | A person owns their identity and personal repositories. | A user can belong to organizations while retaining a personal account. |
+| Organization | A team needs shared ownership, members, teams, and repositories. | Organizations centralize collaboration and access management. |
+| Enterprise | A large organization needs broader governance across organizations. | Enterprise options support centrally managed policy and administration. |
+
+Do not treat an organization as merely a folder of repositories. It is also a collaboration and administration boundary with members, teams, roles, settings, and policies.
+
+## GitHub Flow walkthrough
+
+1. Start from an up-to-date default branch.
+2. Create a descriptive branch for one coherent change.
+3. Make and commit the change with an informative message.
+4. Push the branch to GitHub.
+5. Open a pull request that explains the purpose and scope.
+6. Review, discuss, test, and address feedback.
+7. Merge when the repository's requirements are met.
+8. Delete the merged branch when it is no longer needed.
+
+The details vary by repository. The exam objective is the collaboration idea: work is isolated, visible, reviewed, and deliberately merged.
+
+## Markdown essentials
+
+Markdown helps people scan and understand work in issues, pull requests, discussions, and documentation.
+
+| Goal | Markdown pattern | Good use |
+| --- | --- | --- |
+| Create hierarchy | `# Heading` and `## Heading` | Separate context, proposal, and validation notes. |
+| Make a list | `- item` or `1. item` | Show steps, acceptance criteria, or alternatives. |
+| Emphasize code | Backticks around `code` | Identify commands, files, and configuration keys. |
+| Link context | `[label](URL)` | Connect a pull request to a design, issue, or documentation page. |
+| Track a checklist | `- [ ] task` | Make remaining review or release work visible. |
+
+## Readiness check
+
+Before moving on, explain all of the following without looking at notes:
+
+- Why a commit can be created locally even when GitHub is unavailable.
+- Why a pull request is a collaboration surface rather than a replacement for a branch.
+- When a team should use a personal account, organization, or enterprise context.
+- How Markdown makes an issue or pull request easier to review.
+- The difference between GitHub Desktop, GitHub Mobile, and the web experience.

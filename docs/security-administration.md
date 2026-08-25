@@ -38,3 +38,68 @@ flowchart TD
 | Control user accounts at enterprise scale | Enterprise Managed Users |
 
 Study [secure repository practices](https://learn.microsoft.com/en-us/training/modules/maintain-secure-repository-github/) and [GitHub administration](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/).
+
+## Identity and authentication
+
+Security begins with knowing who is accessing GitHub and requiring appropriate proof of identity.
+
+| Control | What it does | Common scenario |
+| --- | --- | --- |
+| Password | A primary sign-in secret | It should not be the only layer of account protection. |
+| Two-factor authentication (2FA) | Requires an additional verification factor | Protect an account when a password is compromised. |
+| Passkey | A modern authentication method tied to a device or authenticator | Reduce reliance on reusable passwords. |
+| Recovery method | Helps restore access safely | Plan it before an account-access emergency. |
+| Enterprise Managed User | An enterprise-managed identity model | Centralize identity lifecycle and access in an enterprise setting. |
+
+## Permission model
+
+The central exam principle is least privilege: grant the smallest level of access that allows someone to do their work, then review it as needs change.
+
+| Scope | What it governs | Examples to recognize |
+| --- | --- | --- |
+| Repository role | What someone can do in a repository | Read, triage, write, maintain, or administer based on available roles. |
+| Team | A reusable group of organization members | Apply consistent access to multiple repositories. |
+| Organization role | Organization-level responsibilities | Manage members, settings, or other organization functions. |
+| Enterprise role | Enterprise-wide administration responsibilities | Apply governance above individual organizations. |
+
+### Least-privilege scenario guide
+
+| Need | First concept to consider |
+| --- | --- |
+| A group needs the same repository access | Create or use a team, then grant the appropriate repository role. |
+| A user only needs to review triaged issues | Choose a limited repository role rather than administrator access. |
+| A central team manages identity at scale | Consider enterprise identity and EMU concepts. |
+| A policy needs to apply across an organization | Use the organization administration and policy surface. |
+
+## Visibility and repository protection
+
+| Control | What decision it supports |
+| --- | --- |
+| Public visibility | The repository can be discovered and accessed publicly. |
+| Private visibility | Access is limited to explicitly authorized people or teams. |
+| Internal visibility | Access is limited to members of an enterprise where available. |
+| Branch protection | Changes to important branches must satisfy configured requirements. |
+| Required reviews | A merge needs the designated review conditions. |
+| Required status checks | Automated checks must pass before a protected branch accepts changes. |
+
+### Branch-protection reasoning
+
+Branch protection does not replace collaboration. It formalizes the conditions that must be met before a protected branch is changed. In an exam scenario, connect the desired outcome to the appropriate control: review quality, automated validation, or preventing direct unreviewed changes.
+
+## Organization administration and Copilot policy
+
+| Administration area | Why it matters |
+| --- | --- |
+| Members and teams | Organize people and access at scale. |
+| Roles | Delegate responsibility without giving every user full control. |
+| Organization settings | Configure features and collaboration behavior. |
+| Copilot policy management | Govern Copilot use for organization members. |
+| Enterprise Managed Users | Integrate centrally managed identity and governance. |
+
+## Readiness check
+
+- Explain how 2FA and passkeys strengthen account access.
+- Choose the least-privileged role or team approach for a simple access scenario.
+- Distinguish public, private, and internal visibility.
+- Identify when branch protection, review requirements, and status checks apply.
+- Describe the governance purpose of EMUs and organization-wide Copilot policies.
