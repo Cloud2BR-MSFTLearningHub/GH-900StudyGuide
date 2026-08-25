@@ -1,5 +1,5 @@
 site_name: GH-900 GitHub Foundations Study Guide
-site_description: An independent study guide aligned to the official Microsoft Learn GH-900 skills measured.
+site_description: Practice material and study notes for the Microsoft GitHub Foundations certification.
 site_url: https://cloud2br-msftlearninghub.github.io/GH-900StudyGuide/
 repo_url: https://github.com/Cloud2BR-MSFTLearningHub/GH-900StudyGuide
 repo_name: Cloud2BR-MSFTLearningHub/GH-900StudyGuide
@@ -10,8 +10,8 @@ copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearni
 
 theme:
   name: material
-  logo: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg
-  favicon: https://learn.microsoft.com/en-us/media/learn/certification/badges/github-foundations.svg
+  logo: https://avatars.githubusercontent.com/u/195347873?v=4
+  favicon: https://avatars.githubusercontent.com/u/195347873?v=4
   features:
     - navigation.sections
     - navigation.expand
@@ -21,7 +21,7 @@ theme:
   palette:
     scheme: default
     primary: blue
-    accent: cyan
+    accent: blue
 
 markdown_extensions:
   - admonition
@@ -29,6 +29,9 @@ markdown_extensions:
   - md_in_html
   - tables
   - pymdownx.highlight
+  - pymdownx.snippets:
+      base_path:
+        - .
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -41,6 +44,9 @@ markdown_extensions:
 
 extra_css:
   - assets/css/custom.css
+extra_javascript:
+  - assets/js/logo-link.js
+  - assets/js/external-links.js
 extra:
   generator: false
   social:
@@ -50,7 +56,7 @@ extra:
 
 nav:
   - Home: index.md
-  - Study Domains:
+  - Study Modules:
       - Git and GitHub basics: git-github-basics.md
       - Repositories: repositories.md
       - Collaboration: collaboration.md
