@@ -97,3 +97,12 @@ Insights help convert project data into a progress view. Study the distinction b
 - Distinguish labels, milestones, custom fields, and assignees.
 - Explain how a workflow changes project data without replacing human ownership.
 - Describe how project insights differ from a single issue or pull request.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Layout selection:** A table is useful for comparing several fields, a board is useful for work moving across status columns, and a roadmap is useful for viewing planned work over time.
+2. **Organization features:** Labels categorize work, milestones group work around a release or shared outcome, custom fields capture project-specific information, and assignees identify who is responsible for a work item.
+3. **Project workflow:** A workflow can update a field when a predictable event happens, such as a linked item closing. It reduces repetitive administration, but a team still owns prioritization, status definitions, and decisions.
+4. **Insights:** A single issue or pull request describes one work item. Project insights use aggregated project information to help a team assess progress, trends, and productivity across its work.
+</details>

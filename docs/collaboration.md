@@ -101,3 +101,12 @@ Notifications are not only alerts; they are a way to manage attention.
 - Explain how an issue and pull request can be linked without being the same artifact.
 - Describe the purpose of templates, labels, filters, assignments, and saved replies.
 - Explain how notification settings protect attention without losing important review work.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Choose the surface:** Use an issue for actionable work, a pull request for a proposed branch change, a discussion for open conversation, a gist for a small standalone snippet, a wiki for project documentation, and Pages for a published static site.
+2. **Linked work:** The issue records the need or task; the pull request records the proposed implementation. A link gives traceability and can close the issue after a qualifying merge, but each artifact still has its own purpose.
+3. **Collaboration controls:** Templates ask for consistent information, labels categorize work, filters narrow the work list, assignments clarify ownership, and saved replies speed up frequent accurate responses.
+4. **Notifications:** A user can subscribe to relevant repositories or threads and use notification filters for review requests, mentions, and participating activity. This keeps required attention visible while reducing unrelated noise.
+</details>

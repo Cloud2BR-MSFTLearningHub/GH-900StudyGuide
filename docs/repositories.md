@@ -110,3 +110,12 @@ When considering a new repository, reason through the following decisions.
 - Choose between a branch, template repository, and fork for a short scenario.
 - Identify settings, files, or insights that support repository maintenance.
 - Describe why visibility and ownership are early repository decisions.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Community files:** `README` orients visitors, `LICENSE` defines reuse terms, `CONTRIBUTING` explains how to participate, `CODEOWNERS` routes ownership and review, and `SECURITY` explains responsible security reporting.
+2. **Branch, template, or fork:** Use a branch for isolated work that stays in the same repository, a template repository to begin a new project from a reusable baseline, and a fork for an independent copy that can contribute changes back upstream.
+3. **Maintenance evidence:** Accurate guidance files, intentional settings, clear branch practices, templates and labels, plus insights and dependency information all help a repository remain understandable and maintainable.
+4. **Early decisions:** Ownership determines who administers the repository, while visibility determines who can discover and access it. Both influence collaboration, compliance, and the safe sharing of information.
+</details>

@@ -97,3 +97,13 @@ InnerSource applies open-source-style practices inside an organization. It helps
 - Explain what Marketplace is for without confusing it with a repository or package registry.
 - Describe InnerSource without claiming that it makes private company code public.
 - List the first four things to inspect before contributing to a project.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Value and engagement:** Open source enables collaboration under a license, GitHub Sponsors provides a way to financially support eligible maintainers, and following people or organizations helps a user stay informed about relevant activity.
+2. **Fork or template:** Fork when the goal is an independent copy of an existing project and a possible upstream contribution. Use a template repository when the goal is to start a separate new project from a reusable structure.
+3. **Marketplace:** GitHub Marketplace helps users discover apps and integrations that extend GitHub. It is not a repository, a pull-request mechanism, or a general package registry.
+4. **InnerSource:** InnerSource uses open-source-style discoverability, contribution guidance, and cross-team collaboration within an organization. It does not mean internal code must become publicly visible.
+5. **Before contributing:** Start with the `README`, license, code of conduct, and contribution guidance. Then search existing issues and discussions to understand current work and expectations.
+</details>

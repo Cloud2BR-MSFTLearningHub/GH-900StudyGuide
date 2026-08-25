@@ -105,3 +105,12 @@ Do not memorize commercial details that can change. Understand why team and ente
 - Choose between Actions, Copilot, Codespaces, a dev container, and github.dev for a scenario.
 - Explain why an AI suggestion still needs human review and repository checks.
 - Describe the governance difference between an individual and an organization-managed Copilot context.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Actions vocabulary:** A workflow is the automated process, an event starts it, a job is a related set of work, a step is one task in that job, an action is reusable automation, and a runner executes the job.
+2. **Tool selection:** Use Actions for event-driven automation, Copilot for AI-assisted coding work, Codespaces for a configured cloud development environment, a dev container to describe repeatable environment setup, and github.dev for quick browser editing or exploration.
+3. **Human responsibility:** AI suggestions can be incomplete, incorrect, insecure, or unsuitable for a repository. People must review the change, run appropriate tests, and follow the repository's pull-request and security requirements.
+4. **Governance:** An individual uses Copilot in a personal context. An organization-managed context adds centralized policy, administration, and controls that help a team govern use consistently.
+</details>

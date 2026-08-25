@@ -112,3 +112,13 @@ Before moving on, explain all of the following without looking at notes:
 - When a team should use a personal account, organization, or enterprise context.
 - How Markdown makes an issue or pull request easier to review.
 - The difference between GitHub Desktop, GitHub Mobile, and the web experience.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Local commits:** Git records commits in the local repository, so creating a commit does not require a connection to GitHub. A connection is needed later to push the branch and use hosted collaboration features.
+2. **Pull request and branch:** A branch isolates the proposed change. A pull request is the hosted collaboration space where people can compare that branch, discuss it, request review, run checks, and decide whether to merge it.
+3. **Account scope:** Use a personal account for an individual's identity and personal work, an organization for shared team ownership and administration, and an enterprise context when governance must span organizations at larger scale.
+4. **Markdown:** Headings, lists, code formatting, links, and checklists make context, acceptance criteria, commands, and review notes easier to scan.
+5. **Client choices:** GitHub Desktop is a graphical client for common Git workflows, GitHub Mobile is for staying connected to GitHub activity while away from a desktop, and the web experience provides hosted repository, collaboration, and settings features in a browser.
+</details>

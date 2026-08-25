@@ -103,3 +103,13 @@ Branch protection does not replace collaboration. It formalizes the conditions t
 - Distinguish public, private, and internal visibility.
 - Identify when branch protection, review requirements, and status checks apply.
 - Describe the governance purpose of EMUs and organization-wide Copilot policies.
+
+<details markdown="1">
+<summary><b>Suggested answers</b></summary>
+
+1. **Account protection:** 2FA requires an additional verification factor beyond a password. Passkeys provide a modern authentication approach that can reduce exposure to reusable password credentials.
+2. **Least privilege:** Put people with the same access needs into a team and grant that team only the repository role required. Avoid administrator access when read, triage, write, or maintain access is enough.
+3. **Visibility:** Public repositories are broadly discoverable, private repositories are restricted to authorized access, and internal repositories are limited to enterprise members where that option is available.
+4. **Protected branches:** Use branch protection when important branches need controls such as required reviews, passing status checks, or restrictions on direct updates before changes are merged.
+5. **Governance:** Enterprise Managed Users support centrally managed enterprise identity, while organization-wide Copilot policies help administrators govern Copilot use across organization members.
+</details>
