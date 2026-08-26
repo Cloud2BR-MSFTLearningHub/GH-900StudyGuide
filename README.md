@@ -1,7 +1,6 @@
 # Study Guide: GitHub Foundations (GH-900)
 
-> **Note**
->
+> [!NOTE]
 > This independent study guide contains original study notes and diagrams, not official exam questions. It follows the [GH-900 Microsoft Learn study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900). Use the [GitHub Foundations certification page](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) for the current exam details, practice assessment, and scheduling information.
 
 <details markdown="1">
