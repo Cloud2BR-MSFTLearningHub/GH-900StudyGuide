@@ -86,7 +86,7 @@ Do not memorize commercial details that can change. Understand why team and ente
 ## Codespaces, dev containers, and github.dev
 
 | Tool | Best use | Compute environment | Configuration concept |
-| --- | --- | --- |
+| --- | --- | --- |  --- |
 | Codespaces | Develop, run, and test in a hosted environment | Cloud-hosted environment | Can use a dev container to define tools and setup. |
 | Dev container | Standardize environment setup | Used by supporting development environments | Configuration describes the environment and dependencies. |
 | github.dev | Browse and make quick edits in a browser | Lightweight editor experience | Not a substitute for a full Codespaces compute environment. |
